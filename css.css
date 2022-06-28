@@ -1,0 +1,96 @@
+.text{
+    text-align: center;
+    margin: 5% 0;
+}
+
+.sanpham1{
+    align-items: center;
+    text-align: center;
+    transition: 0.4s;
+    margin: 20% 0;
+}
+.row img{
+    width: 100%;
+}
+.khung2 p{
+    margin-top: 40%;
+    margin-left: 5%;
+}
+.khung2 .gia{
+    margin-top: auto;
+}
+.khung2 h4,a{
+    margin-left: 5%;
+}
+.khung2 img{
+    margin: 10% 0;
+}
+.sanpham1 img{
+    width:80%;
+    margin: 0 5%;
+    position: relative;
+    z-index: 0;
+}
+.row{
+    /* display: ; */
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 10%;
+}
+.row-footer{
+    padding: 0;
+    display: flexbox;
+   
+}
+.sanpham-full{
+    background-color: pink;
+    width: 100%;
+    /* border:1px solid red; */
+  }
+.select{
+    float:right;
+}
+hr {
+    
+    height: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0); 
+    z-index: 10;
+}
+.mahang{
+    display: none;
+}
+.sanpham1 a{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    text-align: center;
+    margin-top: 5%;
+}
+.row .sanpham1:hover a{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.4s;
+}
+.sanpham1:hover{
+transform: translateY(-10px);
+transition: 0.3s;
+}
+.khung2 img:hover{
+transform: translateY(-10px);
+transition: 0.3s;
+}
+.khung2{
+    transition: 1s;
+    overflow: hidden;
+}
+.khung2:hover .img{
+    transform: scale(1.3);
+    transition: 1s;
+}
+.icon a{
+    margin: 0 0.5%;
+}
+.carousel{
+    margin: 5% 0;
+}

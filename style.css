@@ -1,0 +1,16 @@
+
+  .sanpham1 button{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    text-align: center;
+    margin-top: 5%;
+}
+.row .sanpham1:hover button{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.4s;
+}
+.row .sanpham1{
+  transition: 0.4s;
+}
